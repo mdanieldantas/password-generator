@@ -46,8 +46,7 @@ function copyToClipboard() {
     </div>
     <button onClick={generate}>Gerar senha de {passwordSize} caracteres!</button>
     <button onClick={copyToClipboard}>{copyText}</button>
- 
-    <div>{password}Senha</div>
+    <div>{password}</div>
     </>
   )
 }
