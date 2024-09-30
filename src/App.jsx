@@ -41,11 +41,12 @@ function copyToClipboard() {
     id ="passwordSize" 
     min={1}
     value={passwordSize}
-    onChange={(ev) => setPasswordSize(event.target.value)}
+    onChange={(ev) => setPasswordSize(ev.target.value)}
     />
     </div>
     <button onClick={generate}>Gerar senha de {passwordSize} caracteres!</button>
     <button onClick={copyToClipboard}>{copyText}</button>
+ 
     <div>{password}Senha</div>
     </>
   )
