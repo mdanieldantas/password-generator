@@ -6,7 +6,7 @@ Password Generator é uma aplicação web desenvolvida com React e Vite que é c
 
 - 🔒 Gera senhas aleatórias seguras
 - 📋 Copia a senha gerada para a área de transferência
-- ⚙️ **Em breve:** Permite configurar a complexidade da senha (comprimento, uso de caracteres especiais, etc.)
+- ⚙️ Permite configurar comprimento da senha
 
 ## Tecnologias Utilizadas
 
